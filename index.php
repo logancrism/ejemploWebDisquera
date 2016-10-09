@@ -20,7 +20,7 @@ while ($row = $sql_artistas->fetch_array()) {
 }
 
 $smarty = new Smarty;
-$tpl = $smarty->createTemplate('template/template.tpl');
+$tpl = $smarty->createTemplate('templates/template.tpl');
 $tpl->assign('titulo','Web Disqueras');
 $tpl->assign('artistas',$artistas);
 $smarty->display($tpl); // or $tpl->display();
