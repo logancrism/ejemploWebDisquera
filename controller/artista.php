@@ -9,7 +9,7 @@ class artista {
 
 	function home(){
 		$sql_artistas = new mysql;
-		$artistas = $sql_artistas->consulta('SELECT * FROM artista ORDER BY apellidos ASC');
+		$artistas = $sql_artistas->consulta('SELECT * FROM artista ORDER BY fecha ASC');
 
 		$smarty = new Smarty;
 		$tpl = $smarty->createTemplate('templates/main.tpl');
