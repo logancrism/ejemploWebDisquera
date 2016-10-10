@@ -8,7 +8,14 @@ require_once('controller/artista.php');
 
 if(isset($_GET['url']) or !empty($_GET['url'])) {
 	$url = $_GET['url'];
+	initClass($url);
 
+} else {
+	$url = 'artista/home';
+	initClass($url);
+}
+
+function initClass($url) {
 	$class=explode('/', $url);
 
 	if(!empty($class['1']) or isset($class['1'])) {
@@ -16,8 +23,4 @@ if(isset($_GET['url']) or !empty($_GET['url'])) {
 		//$objet->$class['1'].'()';
 		$objet->$class['1']();
 	}
-
-
-} else {
-	$url = 'home';
 }
