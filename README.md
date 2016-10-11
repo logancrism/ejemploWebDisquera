@@ -17,4 +17,4 @@ La idea es trabajar con el código PHP y HTML separados para tener orden en el c
 
 
 
-[1]: https://es.wikipedia.org/wiki/CRUD
+[1]: https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
