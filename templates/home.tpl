@@ -22,7 +22,7 @@
 	    	<td>{$art.nombres}</td>
 	    	<td>{$art.apellidos}</td>
 	    	<td>{$art.f_nacimiento}</td>
-	    	<td><a href="?url=artista/actualizar={$art.id}" class="btn-sm btn-success">Actualizar</a></td>
+	    	<td><a href="?url=artista/actualizar&id={$art.id}" class="btn-sm btn-success">Actualizar</a></td>
 	    	<td><a href="?url=artista/eliminar&id={$art.id}" class="btn-sm btn-danger">Eliminar</a></td>
 	    </tr>
 	{/foreach}
