@@ -13,7 +13,7 @@ La idea es trabajar con el código PHP y HTML separados para tener orden en el c
 ###Paginas:
 - **Artista:** acciones disponibles: [(CRUD)][1] siglas en ingles de: Crear,Leer,Actualizar y Eliminar
 
-####Herramientas Implementadas:#### Smarty3 (Motor de plantillas)
+***Herramientas Implementadas:*** Smarty3 (Motor de plantillas)
 
 
 
