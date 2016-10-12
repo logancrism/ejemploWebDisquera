@@ -1,3 +1,4 @@
+<h2>Artistas</h2>
 <div class="panel panel-primary">
  	<!-- Default panel contents -->
  	<div class="panel-heading">Listado de Artistas 

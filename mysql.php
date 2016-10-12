@@ -36,11 +36,17 @@ class mysql
 	public function consulta($query) {
 		$sql = $this->con->query($query);
 
-		$array = array();
-		while ($row = $sql->fetch_array()) {
-			$array[] =$row;
+		if(!empty($sql->num_rows)) {
+			$array = array();
+			while ($row = $sql->fetch_array()) {
+				$array[] =$row;
+			}
+			return $array;			
+		} else {
+			return $sql;
 		}
-		return $array;
+
+
 
 	}
 
