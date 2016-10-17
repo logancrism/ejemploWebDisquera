@@ -10,12 +10,12 @@ La idea es trabajar con el código PHP y HTML separados para tener orden en el c
 - **Controller:** Directorio donde cada clase es una entidad donde PHP procesa la petición solicitada.
 - **Template:** Directorio donde se están las plantillas para cada pagina.
 
-###Paginas:
-- **Artista:** acciones disponibles: [(CRUD)][1] siglas en ingles de: Crear,Leer,Actualizar y Eliminar
-- **Disquera:** acciones disponibles: (CRUD)
+###Paginas: con acciones disponibles: [(CRUD)][1] siglas en ingles de: Crear,Leer,Actualizar y Eliminar
+- **Entidades:** con acciones disponibles CRUD: Disquera, Arstista, Album, Cancion
 
-***Herramientas Implementadas:*** Smarty3 (Motor de plantillas)
-
+***Herramientas Implementadas:*** [Smarty3][2], [Jquery][3].
 
 
 [1]: https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+[2]: http://www.smarty.net/v3_overview
+[3]: http://www.jquery.com
