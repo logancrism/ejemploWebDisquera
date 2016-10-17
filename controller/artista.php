@@ -92,4 +92,11 @@ class artista {
 			die('Error: no fue posible ejecutar la consulta');
 		}
 	}
+
+	public function listar()
+	{
+		$sql = new mysql;	
+		$artista = $sql->consulta('SELECT id,nombres,apellidos FROM artista');
+		echo json_encode($artista);
+	}
 }

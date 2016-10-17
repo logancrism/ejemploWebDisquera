@@ -5,7 +5,8 @@ require_once('libs/Smarty.class.php');
 require_once('mysql.php');
 require_once('controller/artista.php');
 require_once('controller/disquera.php');
-
+require_once('controller/cancion.php');
+require_once('controller/album.php');
 
 if(isset($_GET['url']) or !empty($_GET['url'])) {
 	$url = $_GET['url'];

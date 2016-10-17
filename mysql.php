@@ -38,7 +38,7 @@ class mysql
 
 		if(!empty($sql->num_rows)) {
 			$array = array();
-			while ($row = $sql->fetch_array()) {
+			while ($row = $sql->fetch_assoc()) {
 				$array[] =$row;
 			}
 			return $array;			
