@@ -89,4 +89,18 @@ class album {
 		}
 	}
 
+	public function listar()
+	{
+		$sql = new mysql;
+		if (!empty($_GET['id'])) {
+			$query = 'SELECT * FROM album WHERE id_artista = '.$_GET['id'];
+		} else {
+			$query = 'SELECT * FROM album';
+		}
+
+		$album = $sql->consulta($query);
+		echo json_encode($album);
+
+	}
+
 }

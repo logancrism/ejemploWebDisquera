@@ -26,8 +26,8 @@
 	    		<!--<a href="?url=artista/actualizar&id={$cancion.id_artista}">{$cancion.nombres} {$cancion.apellidos}</a>-->
 	    		{$cancion.nombres} {$cancion.apellidos}
 	    	</td>
-	    	<td><a href="?url=artista/actualizar&id={$cancion.id}" class="btn-sm btn-success">Actualizar</a></td>
-	    	<td><a href="?url=artista/eliminar&id={$cancion.id}" class="btn-sm btn-danger">Eliminar</a></td>
+	    	<td><a href="?url=cancion/actualizar&id={$cancion.id}" class="btn-sm btn-success">Actualizar</a></td>
+	    	<td><a href="?url=cancion/eliminar&id={$cancion.id}" class="btn-sm btn-danger">Eliminar</a></td>
 	    </tr>
 	{/foreach}
 	</table>
