@@ -7,11 +7,12 @@ Example the Web Application: The where are manage a system  database of record l
 
 ###Estructura:
 La idea es trabajar con el código PHP y HTML separados para tener orden en el código.
-- **Controller:** Directorio donde cada clase es una entidad donde PHP procesa la petición solicitada.
+- **Controller:** Directorio donde cada clase es una entidad donde PHP procesa la petición solicitada y trae los datos en la base de datos.
 - **Template:** Directorio donde se están las plantillas para cada pagina.
 
-###Paginas: con acciones disponibles: [(CRUD)][1] siglas en ingles de: Crear,Leer,Actualizar y Eliminar
-- **Entidades:** con acciones disponibles CRUD: Disquera, Arstista, Album, Cancion
+###Paginas: 
+Con acciones: Crear,Leer,Actualizar y Eliminar
+- **Paginas Disponiblse con [(CRUD)][1]:** : Disquera, Arstista, Album y Cancion
 
 ***Herramientas Implementadas:*** [Smarty3][2], [Jquery][3].
 
