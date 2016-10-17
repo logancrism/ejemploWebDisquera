@@ -44,6 +44,7 @@
 			dataType: 'json',
 			data: { id: id }
 		}).done(function(data){
+				$('#id_album').html(' ');
 			$.each(data, function(i,val){
 				$('#id_album').append('<option value="'+data[i].id+'">'+data[i].album+'</option>')
 			})
