@@ -3,7 +3,6 @@
 **Universidad Konrad Lorenz**
 
 Ejemplo de Web App: En donde se gestiona un sistema que almacene datos de disqueras,artistas y álbumes.
-Example the Web Application: The where are manage a system  database of record labels, artists and albums.
 
 ###Estructura:
 La idea es trabajar con el código PHP y HTML separados para tener orden en el código.
@@ -13,6 +12,11 @@ La idea es trabajar con el código PHP y HTML separados para tener orden en el c
 ###Paginas: 
 Con acciones: Crear,Leer,Actualizar y Eliminar
 - **Paginas Disponiblse con [(CRUD)][1]:** : Disquera, Arstista, Album y Cancion
+
+### Clonar desde github
+```
+git clone git@github.com:Siedrix/koa-fit.git
+```
 
 ***Herramientas Implementadas:*** [Smarty3][2], [Jquery][3].
 
