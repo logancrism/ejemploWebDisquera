@@ -15,7 +15,7 @@ Con acciones: Crear,Leer,Actualizar y Eliminar
 
 ### Clonar desde github
 ```
-git clone git@github.com:Siedrix/koa-fit.git
+git clone git@github.com:logancrism/ejemploWebDisqueras.git
 ```
 
 ***Herramientas Implementadas:*** [Smarty3][2], [Jquery][3].
