@@ -8,7 +8,7 @@
   	</div>
 
   <!-- Table -->
-	<table class="table">
+	<table class="table table-striped">
 		<tr>
 			<th>ID</th>
 			<th>Nombres</th>
