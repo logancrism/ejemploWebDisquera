@@ -1,6 +1,3 @@
-#Practicas de MYSQL y PHP
-##Clase: Introducción a Ingeniería en Sistemas (Grupo 51) - Semestre 1
-**Universidad Konrad Lorenz**
 
 Ejemplo de Web App: En donde se gestiona un sistema que almacene datos de disqueras,artistas y álbumes.
 
